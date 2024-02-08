@@ -1,0 +1,55 @@
+<!-- MY GITHUB BROWSWER LINK: https://ahims.github.io/ist263/lab03/contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Contact</h1>
+    <p>Syracuse University <br> Hinds Hall 018 <br> Syracuse NY 13244 <br> </p>
+    <div>
+    <!--email -->
+        <p><a href="mailto:amohamad@syr.edu">amohamad@syr.edu</a></p>
+        
+        <img src="../images/LinkedIn-Logos/LI-In-Bug.png" alt="images">
+        <!-- for the linked in link -->
+   <a href="https://www.linkedin.com/in/mounir-hima/" target="_blank"> mylinkedin</a>
+
+    </div>
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46663.67300835321!2d-76.1239749!3d43.031340449999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3682f81fc95%3A0xdde8fcc1640a4876!2sSyracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1706801437660!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <h2>Contact Form</h2>
+    <form action="https://formspree.io/f/meqyadrl" method="post">
+        <!-- Text field for Name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <!-- Radio buttons for Gender selection -->
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Checkboxes for Interests -->
+        <label for="interest">Interests:</label><br>
+        <input type="checkbox" id="coding" name="interest" value="coding">
+        <label for="coding">Coding</label><br>
+        <input type="checkbox" id="design" name="interest" value="design">
+        <label for="design">Design</label><br>
+        <input type="checkbox" id="marketing" name="interest" value="marketing">
+        <label for="marketing">Marketing</label><br><br>
+
+        <!-- Textarea for Message -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
