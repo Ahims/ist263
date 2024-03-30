@@ -1,13 +1,40 @@
-.nav1 {
-    display: flex;
-    justify-content: flex-end;
-    background-color: #1870e4;
-    color: #FFFFFF;
-    padding: 10px;
-    margin-bottom: 20px;
+@media only screen and (min-width: 800px) {
     
+    .nav1 {
+        display: flex;
+        justify-content: flex-end;
+        background-color: #1870e4;
+        color: #FFFFFF;
+        padding: 5px;
+        margin-bottom: 15px;
+    }
 
+    .nav2 {
+        display: none;
+    }
 }
+
+@media only screen and (max-width: 800px) {
+    .nav2 {
+        display: block;
+        background-color: #1870e4;
+        color: #FFFFFF;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .nav1 {
+        display: none;
+    }
+
+    .flexbox2 {
+        flex-wrap: wrap;
+    }
+
+ 
+}
+
+
 
 .nav1 div {
     padding: 10px;
@@ -57,10 +84,20 @@ body {font-family: Arial, Helvetica, sans-serif;
     
 }
 
+
+.quote {float: right;}
+
+.banner {
+    max-width: 100%;
+    
+}
+
+
 h2 {
     text-align: center;
 }
 
 .skills {
     text-align: center;
+    flex-wrap: wrap;
 }
