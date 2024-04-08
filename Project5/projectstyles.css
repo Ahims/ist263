@@ -1,6 +1,6 @@
 @media only screen and (min-width: 800px) {
     
-    .nav1 {
+    nav, .home{
         display: flex;
         justify-content: flex-end;
         background-color: #1870e4;
