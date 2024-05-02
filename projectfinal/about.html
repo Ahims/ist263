@@ -16,6 +16,7 @@ main {
 
         .websiteintro {
             display: flex;
+            flex-wrap: wrap;
         }
 
         .journey {
@@ -28,9 +29,23 @@ main {
            
         }
 
+        .caption {
+          text-align: center;
+          font-size: 25px;
+        }
+
         h1, h2 {
           text-align: center;
         
+        }
+
+        .major {
+          padding: 30px;
+        }
+
+        h1 {
+          padding-top: 20px;
+          padding-bottom: 20px;
         }
 
         .introduction {
@@ -39,6 +54,10 @@ main {
             background-color: #ffffff;
             border-radius: 2em;
 
+        }
+
+        .quote {
+          float: right;
         }
     </style>
 
@@ -60,7 +79,7 @@ main {
                 <a class="nav-link" href="about.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="contact.html">contact</a>
+                <a class="nav-link " href="contact.html">Contact</a>
               </li>
             </ul>
           </div>
@@ -69,23 +88,31 @@ main {
 
       <main>
 
+        <h1><b><u>My Achievements</u></b></h1>
+
 
         <div class="websiteintro">
+
+          
+          <div class="major"> 
+            <h1><b><u>My Major</u></b></h1>
+            <p>Information Management and Technology:  concentration Data Analytics</p> <br> <br>
+            <h1><b><u>My Internships</u></b></h1>
+            <ol>
+             <li> Foward Fitness</li>
+             <li> Basketball Camp</li>
+            </ol>
+
+         </div>
+
+
             
             <div> 
-                <img class="mounirdunking" src="../Projectfolder/media/Basktball.jpg" alt="Mounir Hima Dunking in the Dome at Syracuse">
+              <a href="../images/realresume.pdf"><img class="mounirdunking" src="../Projectfolder/media/Basktball.jpg" alt="Mounir Hima Dunking in the Dome at Syracuse"></a>
+                
+                <p class="caption">Click Picture to See My Resume!</p>
             </div>
 
-            <div class="major"> 
-               <h1><b><u>My Major</u></b></h1>
-               <p>Information Management and Technology:  concentration Data Analytics</p> <br> <br>
-               <h1><b><u>My Internships</u></b></h1>
-               <ol>
-                <li> Foward Fitness</li>
-                <li> Basketball Camp</li>
-               </ol>
-
-            </div>
      
 
          </div>
@@ -93,9 +120,11 @@ main {
          <br>
          <br>
 
-         <h1><b><u>Extracurricular Activities</u></b></h1>
+         
      
          <div class="introduction">
+
+          <h1><b><u>Extracurricular Activities</u></b></h1>
              
              <br>
              <p>Hi, I'm Mounir Hima, and I'm currently pursuing a major in Information Management and Technology at Syracuse University.
@@ -120,6 +149,11 @@ main {
                          of different cultures. This multicultural upbringing has shaped my worldview and approach to problem-solving, allowing me to adapt to diverse situations
                           and connect with people from various backgrounds.</p>
          </div>
+
+         <footer>
+          <hr>
+            &copy; 2024 Mounir Hima <p class="quote"><i>"Hard work beats talent when talent fails to work hard." -Tim Notke</i></p>
+          </footer>
 
       </main>
     

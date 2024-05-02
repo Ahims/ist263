@@ -18,15 +18,18 @@
 
         .websiteintro {
             display: flex;
+            flex-wrap: wrap;
+            padding-left: 40px;
         }
 
         .journey {
             padding: 15px;
+            font-size: 20px;
         }
 
         .mounirdunking {
             padding: 15px;
-            max-width: 100%;
+          max-width: 100%;
            
         }
 
@@ -41,6 +44,26 @@
             background-color: #ffffff;
             border-radius: 2em;
 
+        }
+
+        .insta, .tweet {
+          height: 201px;
+          width: 192px;
+        }
+
+        .socialmedia {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          padding-bottom: 100px;
+        }
+        .socialmedia img {
+          max-width: 100%;
+          padding-top: 15px;
+        }
+
+        .quote {
+          float: right;
         }
     </style>
 
@@ -62,7 +85,7 @@
                 <a class="nav-link" href="about.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="contact.html">contact</a>
+                <a class="nav-link " href="contact.html">Contact</a>
               </li>
             </ul>
           </div>
@@ -75,12 +98,43 @@
                 Welcome to my website, where I invite you to embark on a journey through the world of technology and innovation alongside me. My name is Mounir Hima, and I'm more than just a student—I'm a passionate advocate for leveraging the power of technology to drive positive change in our world. From a young age, I've been captivated by the endless possibilities that technology offers to solve real-world problems and improve lives.
             </div>
             <div> 
-             <img class="mounirdunking" src="../Projectfolder/media/Basktball.jpg" alt="Mounir Hima Dunking in the Dome at Syracuse">
+             <img class="mounirdunking" src="../images/resize mounir basketball pic 1000.png" alt="Mounir Hima Dunking in the Dome at Syracuse">
             </div>
          </div>
      
          <br>
          <br>
+         <br>
+
+
+         <h1><b><u>Follow My Journey on Social Media!</u></b></h1>
+         <br><br>
+
+         <div class="socialmedia">
+
+
+
+          <div class="instagram">
+            <a href="https://www.instagram.com/mounirhima/"><img class="insta" src="../images/instagram.jpg" alt="Instagram logo"></a>
+            
+          </div>
+
+          <div class="twitter">
+            <a href="https://www.twitter.com/himamounir/"><img class="tweet" src="../images/twitter.jpg" alt="twitter logo"></a>
+            
+          </div>
+
+          <div class="linkedin">
+            <a href="https://www.linkedin.com/in/mounir-hima/"><img src="../images/linkedin.png" alt="LinkedIn logo"></a>
+            
+          </div>
+
+         </div>
+        
+         <footer>
+          <hr>
+            &copy; 2024 Mounir Hima <p class="quote"><i>"Hard work beats talent when talent fails to work hard." -Tim Notke</i></p>
+          </footer>
 
       </main>
     
