@@ -11,6 +11,20 @@
     <style>
 
 
+.skip {
+        background-color: #1e2d3f;
+        padding: 5px;
+        border: 1px solid #000000;
+        text-decoration: none;
+        position: absolute;
+        top: 10px;
+        left: -999px;
+      }
+
+      .skip:focus {
+        left: 10px;
+      }
+
         .welcome {
             margin-top: 40px;
             margin-bottom: 40px;
@@ -72,6 +86,7 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
+          <a href="#skip" tabindex="1" class="skip">Skip to Content</a>
           <a class="navbar-brand" href="">Mounir Hima</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -91,14 +106,15 @@
           </div>
         </div>
       </nav>
-      <main>
+
+      <main id="skip">
         <h1 class="welcome"><b><u>Welcome To My Website!</u></b></h1>
         <div class="websiteintro">   
             <div class="journey"> 
                 Welcome to my website, where I invite you to embark on a journey through the world of technology and innovation alongside me. My name is Mounir Hima, and I'm more than just a student—I'm a passionate advocate for leveraging the power of technology to drive positive change in our world. From a young age, I've been captivated by the endless possibilities that technology offers to solve real-world problems and improve lives.
             </div>
             <div> 
-             <img class="mounirdunking" src="../images/resize mounir basketball pic 1000.png" alt="Mounir Hima Dunking in the Dome at Syracuse">
+             <img class="mounirdunking" src="../Projectfolder/media/dunking.jpg" alt="Mounir Hima Dunking in the Dome at Syracuse">
             </div>
          </div>
      

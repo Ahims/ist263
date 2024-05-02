@@ -10,9 +10,23 @@
 
     <style>
 
-main {
+body {
     background-color: #f76900;
 }
+
+.skip {
+        background-color: #1e2d3f;
+        padding: 5px;
+        border: 1px solid #000000;
+        text-decoration: none;
+        position: absolute;
+        top: 10px;
+        left: -999px;
+      }
+
+      .skip:focus {
+        left: 10px;
+      }
 
         .websiteintro {
             display: flex;
@@ -46,6 +60,11 @@ main {
         h1 {
           padding-top: 20px;
           padding-bottom: 20px;
+          font-size: 40px;
+        }
+
+        .major p, li {
+          font-size: 20px;
         }
 
         .introduction {
@@ -66,6 +85,7 @@ main {
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
+          <a href="#skip" tabindex="1" class="skip">Skip to Content</a>
           <a class="navbar-brand" href="">Mounir Hima</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -88,7 +108,7 @@ main {
 
       <main>
 
-        <h1><b><u>My Achievements</u></b></h1>
+        <h1 id="skip"><b><u>My Achievements</u></b></h1>
 
 
         <div class="websiteintro">
